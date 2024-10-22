@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "L/BlGLgJvPaHq86/N/qVxtkvgvlv/9SYxtT5xdFd6vYjCQxX+mkGi5XObDuv7d7CGRzbEM9PH/sgbHN4/DncSA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nasusfen\\RiderProjects\\ConsoleApp2\\Napilnik27\\Napilnik27.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nasusfen\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.119\\stub.system.data.sqlite.core.netstandard.1.0.119.nupkg.sha512",
+    "C:\\Users\\nasusfen\\.nuget\\packages\\system.data.sqlite.core\\1.0.119\\system.data.sqlite.core.1.0.119.nupkg.sha512"
+  ],
+  "logs": []
+}
