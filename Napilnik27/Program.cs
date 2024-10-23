@@ -2,28 +2,20 @@
 {
   public static void Main()
   {
-    Model model = new Model();
-    Presenter presenter = new Presenter();
-    IView view = new ConsoleView();
-  }
-}
+    string exitCommand = "exit";
 
-public class PresenterFactory : IPresenterFactory
-{
-  private readonly Model _model;
-  
-  public PresenterFactory(Model model)
-  {
-    _model = model;
-  }
+    Hasher hasher = new Hasher();
+    DataBase dataBase = new DataBase();
+    
+    Model model = new Model(dataBase, hasher);
+    PresenterFactory factory = new PresenterFactory(model);
+    ConsoleView view = new ConsoleView(factory);
 
-  public Presenter Create(IView view)
-  {
-    return new Presenter(_model, view);
+    string input;
+    
+    while ((input = Console.ReadLine()) != exitCommand)
+    {
+      view.SetPasportTextBoxText(input);  
+    }
   }
-}
-
-public interface IPresenterFactory
-{
-  public Presenter Create(IView view);
 }

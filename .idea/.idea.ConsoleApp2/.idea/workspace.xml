@@ -8,11 +8,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18f034ed-1183-47aa-81e4-48e222e0d836" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleApp2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Napilnik27/ConsoleView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Napilnik27/IView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Napilnik27/Model.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Napilnik27/Presenter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Napilnik27/DataBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Napilnik27/Hasher.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Napilnik27/IPresenterFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Napilnik27/PresenterFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleApp2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleApp2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Napilnik27/ConsoleView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Napilnik27/ConsoleView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Napilnik27/Model.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Napilnik27/Model.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Napilnik27/Presenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Napilnik27/Presenter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Napilnik27/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Napilnik27/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729610637212</updated>
-      <workItem from="1729610638339" duration="3774000" />
+      <workItem from="1729610638339" duration="12693000" />
     </task>
     <servers />
   </component>
@@ -91,5 +94,24 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Napilnik27/ConsoleView.cs</url>
+          <line>34</line>
+          <properties documentPath="C:\Users\nasusfen\RiderProjects\ConsoleApp2\Napilnik27\ConsoleView.cs" containingFunctionPresentation="Method 'checkButton_Click'">
+            <startOffsets>
+              <option value="716" />
+            </startOffsets>
+            <endOffsets>
+              <option value="754" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
